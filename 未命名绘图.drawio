@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2023-03-28T10:32:15.742Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="aFUhAaAolKaWCN0nNt7B" version="21.1.1" type="github">
+  <diagram name="第 1 页" id="YG0pK4gPXe1OfzLrQ7Dj">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G88FasHc9i8MGPDfRjqv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="G88FasHc9i8MGPDfRjqv-4" target="G88FasHc9i8MGPDfRjqv-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-8" value="IP:PORT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="G88FasHc9i8MGPDfRjqv-6" vertex="1" connectable="0">
+          <mxGeometry x="0.1636" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="160" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="G88FasHc9i8MGPDfRjqv-5" target="G88FasHc9i8MGPDfRjqv-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-11" value="proxy_pass" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="G88FasHc9i8MGPDfRjqv-10" vertex="1" connectable="0">
+          <mxGeometry x="0.1574" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-5" value="nginx" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=middle;horizontal=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="299" y="120" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-13" value="根据对应请求查找对应服务" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="G88FasHc9i8MGPDfRjqv-9" target="G88FasHc9i8MGPDfRjqv-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="G88FasHc9i8MGPDfRjqv-9" target="G88FasHc9i8MGPDfRjqv-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-24" value="登录判断" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="G88FasHc9i8MGPDfRjqv-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.0155" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-9" value="apigateway(网关服务)" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="316.5" y="280" width="163.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="G88FasHc9i8MGPDfRjqv-12" target="G88FasHc9i8MGPDfRjqv-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-16" value="鉴权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="G88FasHc9i8MGPDfRjqv-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.0801" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-12" value="consul" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="G88FasHc9i8MGPDfRjqv-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="320" as="targetPoint" />
+            <mxPoint x="190" y="392.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-19" value="登录判断" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#393C56;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="G88FasHc9i8MGPDfRjqv-18" vertex="1" connectable="0">
+          <mxGeometry x="0.025" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G88FasHc9i8MGPDfRjqv-14" value="identity" style="rhombus;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="170" y="370" width="70" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
